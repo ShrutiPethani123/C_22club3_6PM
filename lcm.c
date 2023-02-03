@@ -2,7 +2,7 @@
 11. Find LCM of two number.
 
     10:10 20 30
-    5: 5 10
+    5: 5 10 15 20
 
     LCM: 10
 
@@ -23,7 +23,14 @@ void main()
 
     int max=a>b?a:b;
     int i=max;
-    while(1)
+
+    /*
+    
+    0 - False
+    any thing else - True
+
+    */
+    while(-7)
     {
         if(i%a==0 && i%b==0)
         {
@@ -31,6 +38,7 @@ void main()
             break;
         }
         i+=max;
+        // i++;
         count++;
     }
 

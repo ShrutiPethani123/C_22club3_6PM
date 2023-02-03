@@ -168,8 +168,8 @@ void main()
 
 11. Find LCM of two number.
 
-    10:10 20 30
-    5: 5 10
+    10: 10 20 30
+    5:  5 10
 
     LCM: 10
 
