@@ -82,5 +82,25 @@ void main()
     odd[]: 5 7 9
     even[]: 4 2 2 
 
+8. Take one array from user and search the element.
+
+    a - 8 4 5 12 6 3 
+
+    no: 5 -> present at index 2
+    no: 34 -> Not present
+
+9. Take one array from user copy array from one array to another.
+
+    a - 5 8 4 1 2
+    b - 5 8 4 1 2
+
+10. take two array from user and merge that two array in one single array.
+
+    a - 1 2 5 4 
+    b - 7 8 4 5 2 1
+
+    c = 1 2 5 4 7 8 4 5 2 1 
+
+
 
 */
