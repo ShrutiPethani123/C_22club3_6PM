@@ -101,6 +101,47 @@ void main()
 
     c = 1 2 5 4 7 8 4 5 2 1 
 
+11. Take two array from user and store sum of that two array in another array.
+
+    a - 4 5 7 8
+    b - 1 2 3 3
+
+    c - 5 7 10 11
+
+    a - 1 2
+    b - 1 5 4
+    
+    invalid 
+
+12. Give options to user and then perfome task.
+
+    1. Addition
+    2. Sub
+    3. Mul
+    4. div
+
+13. Take one array from user and insert element in array.
+
+
+    size - 5
+    a[size + 1]
+
+    a - 4 5 6 9 1
+    ind: 3
+    elm: 4
+
+    a - 4 5 6 4 9 1
+
+
+
+    1 2 3 4 5
+
+    ind: 2, no: 9
+    
+
+
+
+
 
 
 */
