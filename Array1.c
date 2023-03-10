@@ -137,6 +137,21 @@ void main()
     1 2 3 4 5
 
     ind: 2, no: 9
+
+14. Take one array from user and ask one index from user and delete that particular element.
+
+a - 5 7 8 6 2 3
+ind:2
+
+a - 5 7 6 2 3
+
+
+15. Take two shorted array and merge that two array into another array.
+
+a - 1 4 5 8 9
+b - 2 3 4 6 7 9 12
+
+c - 1 2 3 4 4 5 6 7 8 9 9 12 
     
 
 

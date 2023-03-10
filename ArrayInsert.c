@@ -30,8 +30,8 @@ void main()
         a[i]=a[i-1];//a[5]=a[4]
     }
     a[idx]=ele;
-    n++;
-    for(int i=0;i<n;i++)
+    // n++;
+    for(int i=0;i<n+1;i++)
     {
         printf("%d ",a[i]);
     }
