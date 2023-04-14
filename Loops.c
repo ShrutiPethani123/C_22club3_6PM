@@ -127,7 +127,14 @@ void main()
 
 4. print factorial of a number.
 
-    4 - 24(4*3*2*1)
+    4 -> 24(4*3*2*1)
+
+    int fact=1;
+    for(int i = 1 ; i<=n;i++)
+    {
+        fact = fact*i;
+    }
+    
 
 5. print factor of user given number.
 
