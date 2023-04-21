@@ -7,7 +7,8 @@ structure:
 */
 
 #include <stdio.h>
-#include<stdlib.h>
+#include <stdlib.h>
+int i=0;
 
 struct Student
 {
@@ -18,6 +19,18 @@ struct Student
     int id;
 
 } s1;
+
+void displayData(struct Student s[])
+{
+    for (int j = 0; j < i; j++)
+    {
+        printf("\n................................Details of Student %d.............................", j + 1);
+        printf("\nName: %s", s[j].name);
+        printf("\nRoll no: %d", s[j].id);
+        printf("\nAddress: %s", s[j].address);
+        printf("\nAge: %d", s[j].age);
+    }
+}
 
 void main()
 {
@@ -44,7 +57,6 @@ void main()
     struct Student s[30];
 
     int choice;
-    int i=0;
 
     while (1)
     {
@@ -73,21 +85,46 @@ void main()
             scanf("%d", &s[i].age);
             i++;
 
-        break;
-    case 2:
-        for (int j = 0; j < i; j++)
-        {
-            printf("\n................................Details of Student %d.............................", j + 1);
-            printf("\nName: %s", s[j].name);
-            printf("\nRoll no: %d", s[j].id);
-            printf("\nAddress: %s", s[j].address);
-            printf("\nAge: %d", s[j].age);
+            break;
+        case 2:
+            // for (int j = 0; j < i; j++)
+            // {
+            //     printf("\n................................Details of Student %d.............................", j + 1);
+            //     printf("\nName: %s", s[j].name);
+            //     printf("\nRoll no: %d", s[j].id);
+            //     printf("\nAddress: %s", s[j].address);
+            //     printf("\nAge: %d", s[j].age);
+            // }
+
+            displayData(s);
+            break;
+        case 3:
+            printf("Enter id: ");
+            int eid;
+            scanf("%d", &eid);
+            int flag = 0;
+            for (int j = 0; j < i; j++)
+            {
+                if (s[j].id == eid)
+                {
+                    printf("\nName: %s", s[j].name);
+                    printf("\nRoll no: %d", s[j].id);
+                    printf("\nAddress: %s", s[j].address);
+                    printf("\nAge: %d", s[j].age);
+                    flag = 1;
+                    break;
+                }
+            }
+            if (flag == 0)
+            {
+                printf("Not Found!!");
+            }
+
+            break;
+        default:
+            printf("\nInvalid Choice!!!");
         }
-        break;
-    default:
-        printf("\nInvalid Choice!!!");
     }
-}
 }
 
 /*
