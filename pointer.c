@@ -35,12 +35,10 @@ void main()
 
 
 
-
-
-
-
-
-
-
-
 }
+
+/*
+
+Take two number from user and swap that two  number using function.
+
+*/
