@@ -39,6 +39,29 @@ void main()
 
 /*
 
-Take two number from user and swap that two  number using function.
+1. Take two number from user and swap that two  number using function.
+2. Take two number from user and make fuction than store addition in one variable and multiplication in one variable.
+
+a: 3
+b: 5
+
+a: 8
+b: 15
+
+3. Take one array from user and reverse that array using function.
+
+a: 5 3 6 2 1
+a: 1 2 6 3 5
+
+void rev(int *a)
+{
+
+}
+
+4. Take one string from user and count total number of words using function.
+
+str: India is my Country
+word: 4
+
 
 */
