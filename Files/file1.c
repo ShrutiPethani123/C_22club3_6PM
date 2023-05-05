@@ -32,6 +32,8 @@ fgetc()
 fputc()
 fgets()
 fputs()
+fseek()
+ftell()
 
 */
 
